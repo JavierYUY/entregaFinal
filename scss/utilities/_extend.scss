@@ -1,0 +1,8 @@
+/*EXTEND*/
+.tienda{
+    img{
+        width: $medidaPx * 20; //no funciona, lo puse en _tienda.scss
+        border-radius: map-get($map: $imagenes, $key: radius);
+        box-shadow: map-get($map: $imagenes, $key: shadow);
+    }
+}
